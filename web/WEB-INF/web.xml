@@ -12,8 +12,4 @@
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>*.xhtml</url-pattern>
     </servlet-mapping>
-    <filter-mapping>
-        <filter-name>FilterAuth</filter-name>
-        <url-pattern>/auth/*</url-pattern>
-    </filter-mapping>
 </web-app>
